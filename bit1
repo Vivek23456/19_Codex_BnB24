@@ -1,0 +1,11 @@
+# Set location path 
+import os
+from google.colad import files
+train = pd.read_csv('/Hr_train.csv')
+test = pd.read_csv('/Hr_test.csv')
+
+# Look at the head () of the data
+display('Train Head :',train)
+display('Test Head :',test)
+
+#display 
